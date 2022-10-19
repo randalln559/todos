@@ -1,0 +1,45 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+}
+/*
+body {
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background: #181818;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  margin: 10%;
+  color: #fff;
+}
+
+.display span {
+  font-size: 64px;
+  font-family: "Raleway", sans-serif;
+}
+
+.display button {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 250px;
+  margin-top: 10px;
+}
+
+.display button:hover {
+  background-color: royalblue;
+}
+
+.newAccBtn {
+  cursor: pointer;
+} */

@@ -1,10 +1,14 @@
-const mongoose = require('mongoose');
+require("dotenv").config();
 
-const db = 'toDo';
+const mongoose = require("mongoose");
 
-mongoose.connect(`mongodb://localhost/${db}`, {
+const db = "toDo";
+
+mongoose
+  .connect(process.env.MONGODBSERVER, {
+    //   .connect(`mongodb://localhost/${db}`, {
     useNewUrlParser: true,
-    useUnifiedTopology: true
-}).then(() => console.log(`Established connection with db - ${db}`))
-    .catch(err => console.log(err));
-
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log(`Established connection with db - ${db}`))
+  .catch((err) => console.log(err));
